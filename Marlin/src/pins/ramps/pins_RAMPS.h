@@ -182,27 +182,27 @@
   #define E0_CS_PIN                           42
 #endif
 
-#ifndef E1_STEP_PIN
-  #define E1_STEP_PIN                         36
+#ifndef Z2_HARDWARE_SERIAL_STEP_PIN
+  #define Z2_STEP_PIN                         36
 #endif
-#ifndef E1_DIR_PIN
-  #define E1_DIR_PIN                          34
+#ifndef Z2_DIR_PIN
+  #define Z2_DIR_PIN                          34
 #endif
-#ifndef E1_ENABLE_PIN
-  #define E1_ENABLE_PIN                       30
+#ifndef Z2_ENABLE_PIN
+  #define Z2_ENABLE_PIN                       30
 #endif
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN                           44
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN                           44
 #endif
 
 //
 // Temperature Sensors
 //
 #ifndef TEMP_0_PIN
-  #define TEMP_0_PIN                          13  // Analog Input
+  #define TEMP_0_PIN                          15  // Analog Input
 #endif
 #ifndef TEMP_1_PIN
-  #define TEMP_1_PIN                          15  // Analog Input
+  #define TEMP_1_PIN                          13  // Analog Input
 #endif
 #ifndef TEMP_BED_PIN
   #define TEMP_BED_PIN                        14  // Analog Input
