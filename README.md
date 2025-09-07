@@ -6,29 +6,29 @@
   Additional documentation can be found at the [Marlin Home Page](//marlinfw.org/).
 </div>
 
-# Independent Z Motors
+## Independent Z Motors
 
 As you may know, the [Voron Legacy](//github.com/VoronDesign/Voron-Legacy) uses two motors on the Z axis, which leads to the necessity of tilt calibration. Usual RAMPS 1.4 builds use a single stepper driver for both Z motors. 
 
 I've modified the pins.h header to turn the unused E1 driver into the second Z motor driver. It fully redefines the second E motor as the second Z motor (Z2), simplifying other modifications in the firmware.
  
 
-# Klicky
+## Klicky
 
 This fork is also set up for the [klicky probe](//github.com/jlas1/Klicky-Probe). 
 
 The exact position for the probe and probing routine can be found in the respective config.h section.
 
-# Extruder
+## Extruder
 The specific e-step values are made for a generic dual gear extruder with a 4:1 gear ratio.
 
-# Display
+## Display
 I used a generic RepRapDiscount Smart Controller display on my build.
 
-# Input Shaping
+## Input Shaping
 I've tested this feature but chose to keep it deactivated. It renders the interface useless during printing.
 
-# Thermistors
+## Thermistors
 I also changed the analog pin associated with the thermistors due to an accident with my original Arduino.
 
   Pin|Thermistor
