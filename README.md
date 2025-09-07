@@ -5,6 +5,7 @@
   
   Additional documentation can be found at the [Marlin Home Page](//marlinfw.org/).
 </div>
+
 # Independent Z Motors
 
 As you may know, the [Voron Legacy](//github.com/VoronDesign/Voron-Legacy) uses two motors on the Z axis, which leads to the necessity of tilt calibration. Usual RAMPS 1.4 builds use a single stepper driver for both Z motors. 
