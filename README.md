@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <h1>Marlin for the Voron Legacy and RAMPS 1.4</h1>
+  <h1>Marlin for Voron Legacy and RAMPS 1.4</h1>
   
   Additional documentation can be found at the [Marlin Home Page](//marlinfw.org/).
 </div>
@@ -11,7 +11,8 @@
 As you may know, the [Voron Legacy](//github.com/VoronDesign/Voron-Legacy) uses two motors on the Z axis, which leads to the necessity of tilt calibration. Usual RAMPS 1.4 builds use a single stepper driver for both Z motors. 
 
 I've modified the pins.h header to turn the unused E1 driver into the second Z motor driver. It fully redefines the second E motor as the second Z motor (Z2), simplifying other modifications in the firmware.
- 
+
+The command for tilt adjustment is G34, Marlin calls it  Z Steppers Auto-Alignment. I put it before G29 in my start G-code.
 
 ## Klicky
 
